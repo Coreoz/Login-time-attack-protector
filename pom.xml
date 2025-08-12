@@ -34,9 +34,9 @@
 	</developers>
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:Coreoz/login-time-attack-protectorx.git</developerConnection>
-		<connection>scm:git:git@github.com:Coreoz/login-time-attack-protector.git</connection>
-		<url>https://github.com/Coreoz/login-time-attack-protector</url>
+		<developerConnection>scm:git:git@github.com:Coreoz/Login-time-attack-protector.git</developerConnection>
+		<connection>scm:git:git@github.com:Coreoz/Login-time-attack-protector.git</connection>
+		<url>https://github.com/Coreoz/Login-time-attack-protector</url>
 		<tag>HEAD</tag>
 	</scm>
 

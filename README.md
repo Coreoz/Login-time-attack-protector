@@ -137,7 +137,3 @@ public void authenticate(@Suspended final AsyncResponse asyncResponse, Credentia
         });
 }
 ```
-# TODO
-- - Create repo on Github
-- - Declare SonarQube project
-- - Deploy on Maven

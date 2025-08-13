@@ -19,7 +19,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * needs to check the item at the head of the queue.
  */
 public final class DelayedCompleter implements AutoCloseable {
-    private static AtomicInteger INSTANCE_NUMBER = new AtomicInteger(1);
+    private static final AtomicInteger INSTANCE_NUMBER = new AtomicInteger(1);
 
     /**
      * A record to hold a future and its target completion time.

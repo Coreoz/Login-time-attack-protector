@@ -89,7 +89,7 @@ The behavior is controlled via `TimingAttackProtector.Config`:
 
 | Parameter      | Description                                                                                                                                                        | Default |
 |:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------|
-| `maxSamples`   | The maximum number of recent execution time samples to keep for statistical analysis.                                                                              | `20`    |
+| `maxSamples`   | The maximum number of recent execution time samples to keep for statistical analysis.                                                                              | `10`    |
 | `samplingRate` | The probability (0.0 to 1.0) of recording a new execution time once `maxSamples` has been reached. A value of `1.0` means every new execution replaces the oldest. | `0.22`  |
 
 #### `DelayedCompleter`

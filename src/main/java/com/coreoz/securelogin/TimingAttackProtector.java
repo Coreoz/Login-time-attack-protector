@@ -26,7 +26,7 @@ public final class TimingAttackProtector {
      * @param maxSamples   The maximum number of execution time samples to keep for
      * statistical analysis. A larger number provides more
      * statistical accuracy but consumes more memory.
-     * The default value is 20: it enables to reach the first JVM improvements and
+     * The default value is 10: it enables to reach the first JVM improvements and
      * to provide values that are representative enough
      * @param samplingRate The probability (from 0.0 to 1.0) of recording a new
      * execution time once {@code maxSamples} has been reached.
